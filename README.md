@@ -4,7 +4,7 @@
 
 ## 安装方法
 
-将此仓库克隆到你的全局 skills 目录：
+将此仓库克隆到你的Trae(或其他IDE)的全局 skills 目录：
 
 ```bash
 git clone https://github.com/SCPZ24/MyAgentSkills.git ~/.trae-cn/skills
@@ -15,4 +15,4 @@ git clone https://github.com/SCPZ24/MyAgentSkills.git ~/.trae-cn/skills
 ## 现有 skills
 
 - git提交
-- 读取代码仓库
+- 源码架构快速解析
