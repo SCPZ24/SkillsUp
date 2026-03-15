@@ -16,3 +16,4 @@ git clone https://github.com/SCPZ24/MyAgentSkills.git ~/.trae-cn/skills
 
 - git提交
 - 源码架构快速解析
+- 创建SKILL
