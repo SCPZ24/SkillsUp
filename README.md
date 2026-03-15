@@ -13,4 +13,7 @@ git clone https://github.com/SCPZ24/MyAgentSkills.git ~/.trae-cn/skills
 克隆后，你就可以在 Trae 中使用这些 skills 了。
 
 ## 现有 skills
-- git-commit
+
+- git提交
+- 读取代码仓库
+
