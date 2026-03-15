@@ -7,7 +7,7 @@ description: 当用户需要创建新的skill时，参考此skill的指导步骤
 name: create-skill
 description: 提供创建新skill的完整流程和模板，帮助用户快速创建符合规范的skill
 type: guide
-version: 1.0
+version: 1.1
 author: Trae User
 
 ## 核心指令（创建步骤）
@@ -16,7 +16,7 @@ instructions:
   1.1 在当前目录(trae的全局skill目录)下创建一个新的目录，目录名就是 skill 名称。
   1.2 目录名建议使用中文，清晰表达skill的功能。
   
-  ### 步骤 2：创建 SKILL.md 文件
+  ### 步骤 2：创建 SKILL.md 文件，注意用中文！
   2.1 在新目录中创建 `SKILL.md` 文件。
   2.2 文件必须包含以下结构：
      - Banner 部分（YAML front matter）
