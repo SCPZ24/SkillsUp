@@ -13,7 +13,7 @@ author: Trae User
 ## 核心指令（创建步骤）
 instructions:
   ### 步骤 1：创建目录结构
-  1.1 在 `~/.trae-cn/skills/` 目录下创建一个新的目录，目录名就是 skill 名称。
+  1.1 在当前目录(trae的全局skill目录)下创建一个新的目录，目录名就是 skill 名称。
   1.2 目录名建议使用中文，清晰表达skill的功能。
   
   ### 步骤 2：创建 SKILL.md 文件
@@ -34,8 +34,7 @@ instructions:
   ```
   
   ### 步骤 4：编写详细内容
-  4.1 参考 `源码架构快速解析/SKILL.md` 的结构
-  4.2 包含：
+  4.1 包含：
      - 技能名称（英文和中文）
      - 详细描述
      - 核心指令/步骤
@@ -43,7 +42,7 @@ instructions:
      - 输出模板（如有）
   
   ### 步骤 5：更新 README.md
-  5.1 打开 `~/.trae-cn/skills/README.md` 文件
+  5.1 打开 `README.md` 文件
   5.2 在 `## 现有 skills` 部分添加新的 skill 名称
   
   ### 步骤 6：验证和测试
@@ -90,56 +89,3 @@ output_template: |
   ## 输出模板
   output_template: |
     {输出格式模板}
-
-## 示例：创建一个简单的 skill
-
-### 1. 创建目录
-```bash
-mkdir -p ~/.trae-cn/skills/示例Skill
-```
-
-### 2. 创建 SKILL.md
-```yaml
----
-name: 示例Skill
-description: 这是一个示例skill，展示基本结构
----
-
-# 示例Skill
-name: example-skill
-description: 示例skill，用于演示创建流程
-version: 1.0
-author: Trae User
-
-## 核心指令
-instructions:
-  ### 步骤 1：执行示例操作
-  1.1 执行示例命令
-  1.2 处理示例数据
-
-## 依赖工具
-tools:
-  - terminal.run  # 执行示例命令
-
-## 输出模板
-output_template: |
-  执行结果：{result}
-```
-
-### 3. 更新 README.md
-在 `## 现有 skills` 部分添加：
-```
-- 示例Skill
-```
-
-## 注意事项
-- 目录名和文件名必须使用中文
-- 描述内容必须使用中文
-- 专业术语保持英文
-- 遵循 AGENTS.md 中的创建流程
-- 参考现有 skill 的结构和格式
-
-## 推荐参考
-- `源码架构快速解析/SKILL.md` - 结构参考
-- `AGENTS.md` - 创建流程参考
-- 其他现有 skill - 格式参考

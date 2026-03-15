@@ -1,3 +1,8 @@
+---
+name: git提交
+description: 当用户要求提交或推送代码时使用此skill。
+---
+
 # git提交
 
 当用户需要用git提交代码时使用此skill。

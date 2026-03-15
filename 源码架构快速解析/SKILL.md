@@ -1,3 +1,8 @@
+---
+name: 源码架构快速解析
+description: 当用户要求带他快速了解/浏览项目代码结构时触发。
+---
+
 # 源码架构快速解析
 name: source-code-architecture-analysis
 description: 专为新人设计的项目源码解析工具，生成易懂的架构解读文档，包括目录结构、核心模块、功能 - 代码映射、快速上手路径
